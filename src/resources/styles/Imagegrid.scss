@@ -1,0 +1,21 @@
+.Imagegrid {
+    width: 59%;
+    height: 80%;
+    background-color: lightgrey;
+    border: 1px solid;
+    margin-left: 90px;
+    display: flex;
+    overflow: auto;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#pages {
+    margin-right: 50px;
+    position: absolute;
+    bottom: 2%;
+    left: 13%;
+    padding: 15px;
+    background-color: grey;
+    border: 1px solid;
+}

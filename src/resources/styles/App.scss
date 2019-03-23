@@ -1,0 +1,22 @@
+.App {
+  user-select: none;
+  position: absolute;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  top: 3%;
+}
+
+#paginator {
+    padding: 15px;
+    width: 100px;
+}
+
+#buttons {
+    position: absolute;
+    bottom: 2%;
+    left: 18%;
+}

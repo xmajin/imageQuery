@@ -1,0 +1,37 @@
+.Searchinput {
+  text-align: left;
+  display: flex;
+}
+
+.Searchinput input {
+    outline: none;
+    width: 42.5em;
+    height: 35px;
+    background-color: lightgrey;
+    font-size: 28px;
+    border-radius: 7px;
+    border: 1px solid;
+}
+
+.Searchinput button {
+    padding: 10px 35px 10px 35px;
+    outline: none;
+    border-radius: 5px;
+    margin: 0px 0px 0px 10px;
+}
+
+#searchbutton {
+    background-color: lightblue;
+}
+
+#savebutton {
+    background-color: lightgreen;
+}
+
+#searchbutton:active {
+    background-color: lightgreen;
+}
+
+#savebutton:active {
+    background-color: lightblue;
+}
